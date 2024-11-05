@@ -5,10 +5,12 @@ const App = () => {
   return (
     <>
       <div>
-        <h1 className="text-3xl font-bold underline">Campaign Portfolio !</h1>
+        <h1 className="text-3xl font-bold underline">
+          Your Campaign Portfolio !
+        </h1>
 
         <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-          <Button>Button</Button>
+          <Button>Learn More</Button>
         </div>
         <ButtonGradient />
       </div>
