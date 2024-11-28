@@ -95,8 +95,8 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Media Branding",
+    text: "Your brand deserves to shine! From captivating logos to sleek, modern graphics, we craft designs that leave lasting impressions. Let us transform your ideas into visuals that captivate your audience and amplify your message.",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap1,
@@ -104,8 +104,8 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "School & Appointment Systems",
+    text: "Say goodbye to chaos and hello to organization! Our school and appointment systems are tailored to enhance efficiency, reduce paperwork, and ensure smooth scheduling.",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap2,
