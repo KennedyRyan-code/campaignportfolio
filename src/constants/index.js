@@ -78,9 +78,10 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Graphics Designs",
-  "Full-stack Development",
-  "Web-Apps Seamless Integration",
+  "Graphics Designs & Media Branding",
+  "School & Appointment systems",
+  "Cloud & Server Services",
+  "Social Media Campaigns",
 ];
 
 export const brainwaveServicesIcons = [
