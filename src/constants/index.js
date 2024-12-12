@@ -33,7 +33,6 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
   simbalogo,
   globalschoollogo,
   taskforcelogo,
