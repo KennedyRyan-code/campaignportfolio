@@ -1,12 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import {
-  service1,
-  service3,
-  check,
-  Brandingservice,
-  smartschool,
-} from "../assets";
+import { service1, check, Brandingservice, smartschool } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
