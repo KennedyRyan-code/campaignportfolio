@@ -17,7 +17,7 @@ import {
   notification2,
   notification3,
   notification4,
-  notion,
+  fbicon,
   photoshop,
   plusSquare,
   protopie,
@@ -38,6 +38,9 @@ import {
   taskforcelogo,
   upwork,
   kuhustlelogo,
+  instagramicon,
+  tiktokicone,
+  githubicon,
 } from "../assets";
 
 export const navigation = [
@@ -139,13 +142,13 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "At CosmicTech, collaboration is at the heart of everything we do. By combining your unique vision with our expertise, we deliver solutions that go beyond expectations. Whether you're looking to enhance your digital presence, streamline operations, or drive engagement, we’ve got you covered..";
 
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
+    text: "From stunning, user-friendly websites to connecting systems for optimized workflows, we ensure every element works in harmony.",
   },
   {
     id: "1",
@@ -153,7 +156,7 @@ export const collabContent = [
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Future-Proof Solution",
   },
 ];
 
@@ -168,23 +171,23 @@ export const collabApps = [
   {
     id: "1",
     title: "Notion",
-    icon: notion,
-    width: 34,
-    height: 36,
+    icon: fbicon,
+    width: 54,
+    height: 56,
   },
   {
     id: "2",
     title: "Discord",
-    icon: discord,
-    width: 36,
-    height: 28,
+    icon: tiktokicone,
+    width: 56,
+    height: 58,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
-    width: 34,
-    height: 35,
+    title: "instagram",
+    icon: instagramicon,
+    width: 54,
+    height: 55,
   },
   {
     id: "4",
@@ -203,9 +206,9 @@ export const collabApps = [
   {
     id: "6",
     title: "Framer",
-    icon: framer,
-    width: 26,
-    height: 34,
+    icon: githubicon,
+    width: 46,
+    height: 44,
   },
   {
     id: "7",
@@ -255,16 +258,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Designs that Speak, Brands that Resonate",
+    text: "Your brand deserves to shine! From captivating logos to sleek, modern graphics, we craft designs that leave lasting impressions. Let us transform your ideas into visuals that captivate your audience and amplify your message.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Engage, Inspire, and Convert",
+    text: "Your audience is online, and we know how to get their attention. With innovative strategies and creative content, our social media campaigns build connections that drive engagement and deliver results. Let’s tell your story and grow your brand online!",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -272,16 +275,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Empowering Your Digital World",
+    text: "Take your business to the next level with our reliable cloud and server solutions. Whether it's secure storage, scalable hosting, or seamless backups, we ensure your operations are always online, efficient, and safeguarded.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Crafting Websites, Connecting Worlds",
+    text: "Elevate your digital presence with stunning websites designed for impact and performance. Our expertise in API integration ensures your platform communicates effortlessly with third-party tools, streamlining processes and enhancing user experiences. From custom designs to robust functionality, we bring your vision to life—seamlessly.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -289,16 +292,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Streamline Your Operations, Simplify Lives",
+    text: "Say goodbye to chaos and hello to organization! Our school and appointment systems are tailored to enhance efficiency, reduce paperwork, and ensure smooth scheduling. Manage your time, data, and communication with ease—it's innovation for your success.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Payments Made Simple, Secure, and Swift",
+    text: "Our digital payment solutions are designed to offer your customers a smooth, secure, and intuitive transaction experience. Whether it's mobile payments, online checkouts, or subscription management, we make every transaction a breeze, empowering your business to grow without boundaries.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
