@@ -27,6 +27,8 @@ import taskforcelogo from "./taskforcelogo.png";
 import upwork from "./upwork.svg";
 import kuhustlelogo from "./kuhustlelogo.png";
 import mobilelogo from "./mobilelogo.svg";
+import Brandingservice from "./services/Brandingservice.webp";
+import smartschool from "./services/smartschool.webp";
 
 import curve from "./hero/curve.png";
 import space from "./hero/space.jpg";
@@ -124,7 +126,9 @@ export {
   instagramicon,
   tiktokicone,
   githubicon,
+  Brandingservice,
   slack,
+  smartschool,
   service1,
   service2,
   service3,
