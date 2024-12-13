@@ -26,6 +26,7 @@ import globalschoollogo from "./globalschoollogo.png";
 import taskforcelogo from "./taskforcelogo.png";
 import upwork from "./upwork.svg";
 import kuhustlelogo from "./kuhustlelogo.png";
+import mobilelogo from "./mobilelogo.svg";
 
 import curve from "./hero/curve.png";
 import space from "./hero/space.jpg";
@@ -36,11 +37,14 @@ import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
 import figma from "./collaboration/figma.png";
 import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
+import fbicon from "./collaboration/fbicon.png";
 import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
+import instagramicon from "./collaboration/instagramicon.png";
+import tiktokicone from "./collaboration/tiktokicone.png";
 import slack from "./collaboration/slack.png";
+import githubicon from "./collaboration/githubicon.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -83,6 +87,7 @@ import twitter from "./socials/twitter.svg";
 
 export {
   brainwave,
+  mobilelogo,
   check,
   check2,
   loading1,
@@ -112,10 +117,13 @@ export {
   discord,
   figma,
   framer,
-  notion,
+  fbicon,
   photoshop,
   protopie,
   raindrop,
+  instagramicon,
+  tiktokicone,
+  githubicon,
   slack,
   service1,
   service2,
