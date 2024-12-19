@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const PricingList = () => {
   return (
-    <div className="flex gap-[1rem] max-lg:flex-wrap">
+    <div className="flex gap-[1rem] max-lg:flex-wrap items-center justify-center lg:gap-6 lg:justify-between">
       {pricing.map((item) => (
         <div
           key={item.id}
@@ -19,21 +19,13 @@ const PricingList = () => {
           <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
-                <div className="h3">$</div>
-                <div className="text-[5.5rem] leading-none font-bold">
+                <div className="h3">Kes</div>
+                <div className="text-[4rem] leading-none font-bold">
                   {item.price}
                 </div>
               </>
             )}
           </div>
-
-          <Button
-            className="w-full mb-6"
-            href={item.price ? "/pricing" : "kent:cosmicflow@contact.com"}
-            white={!!item.price}
-          >
-            {item.price ? "Get started" : "Contact us"}
-          </Button>
 
           <ul>
             {item.features.map((feature, index) => (
@@ -46,6 +38,13 @@ const PricingList = () => {
               </li>
             ))}
           </ul>
+          <Button
+            className="w-full mb-6 items-center"
+            href={item.price ? "/pricing" : "kent:cosmicflow@contact.com"}
+            white={!!item.price}
+          >
+            {item.price ? "Get started" : "Contact us"}
+          </Button>
         </div>
       ))}
     </div>
