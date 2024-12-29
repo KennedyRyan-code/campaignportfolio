@@ -62,18 +62,18 @@ export const navigation = [
   {
     id: "3",
     title: "Blog",
-    url: "#blog",
+    url: "/blog",
   },
   {
     id: "4",
-    title: "Join us",
-    url: "#signup",
+    title: "Ideas",
+    url: "/ideas",
     onlyMobile: true,
   },
   {
     id: "5",
     title: "Collaborate",
-    url: "#login",
+    url: "/collaborate",
     onlyMobile: true,
   },
 ];

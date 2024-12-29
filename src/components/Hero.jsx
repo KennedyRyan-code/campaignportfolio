@@ -19,6 +19,7 @@ const Hero = () => {
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
       id="hero"
+      url="/"
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">

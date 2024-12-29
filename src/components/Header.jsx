@@ -36,7 +36,7 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
+        <a className="block w-[12rem] xl:mr-8" href="/">
           <img src={horizontallogo} width={190} height={80} alt="Cosmic Tech" />
         </a>
 
@@ -68,12 +68,12 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
+          href="/explore"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
-          Join us
+          Explore
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" href="/collaborate">
           Collaborate
         </Button>
 
