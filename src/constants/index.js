@@ -62,12 +62,12 @@ export const navigation = [
   {
     id: "3",
     title: "Blog",
-    url: "/blog",
+    url: "/blogs",
   },
   {
     id: "4",
-    title: "Ideas",
-    url: "/ideas",
+    title: "Explore",
+    url: "/explore",
     onlyMobile: true,
   },
   {

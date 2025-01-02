@@ -21,7 +21,7 @@ const Blogs = () => {
   }, []);
 
   return (
-    <div>
+    <div className="container relative z-2">
       <h1>Blogs</h1>
       {posts.length === 0 ? (
         <p>Loading posts...</p>

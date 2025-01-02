@@ -12,6 +12,13 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Explore = () => {
   const [email, setEmail] = useState("");
@@ -83,6 +90,18 @@ const Explore = () => {
             </CardContent>
           </Card>
         </div>
+        <div className="grid gap-6 mt-12">
+          {/* TODO: ADD Social media links to X, Facebook, Tiktok */}
+          <Carousel>
+            <CarouselContent>
+              <CarouselItem>1</CarouselItem>
+              <CarouselItem>2</CarouselItem>
+              <CarouselItem>3</CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
 
         <h2 className="text-2xl font-semibold mt-12 mb-6">
           Frequently Asked Questions
@@ -145,17 +164,20 @@ const Explore = () => {
           </AccordionItem>
         </Accordion>
       </div>
-      <h1>Join Us</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Enter your email"
-          required
-        />
-        <button type="submit">Submit</button>
-      </form>
+
+      <div className="px-4 py-12 text-white text-center">
+        <h1>Join Us</h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   );
 };
