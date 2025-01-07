@@ -33,73 +33,131 @@ const Collaborate = () => {
 
   return (
     <div className="collaborate flex flex-col items-center justify-center min-h-screen py-12">
-      <h1 className="text-[72px] font-bold mb-8 text-center">Collaborate</h1>
-      <section className="max-w-[1024px] p-10 items-center">
-        <h1 className="text-3xl  font-[700]">
-          At
+      <h1 className="text-[36px] md:text-[72px] font-bold mb-8 text-center">
+        Collaborate
+      </h1>
+      <section className="max-w-[1024px] p-10 items-center space-y-4">
+        <h1 className="text-xl md:text-3xl font-[700]">
+          At{" "}
           <span className="p-2 border-double border-4 border-green-500">
             CosmicTech
           </span>{" "}
           collaboration is at the heart of everything we do.
         </h1>
-        <p className="text-[32px] font-thin ">
+        <p className="text-lg md:text-[32px] space-y-8 font-thin">
           We are a complete team comprising of individuals specializing in
           different aspects of a project lifecycle. By combining your unique
           vision with our expertise, we deliver solutions that go beyond
           expectations.
         </p>
       </section>
-      <div className="w-34 h-64 bg-cover bg-center bg-no-repeat">
-        <p className="mb-10 text-[42px] font-thin p-4">
+      <div className="h-64 bg-cover bg-center bg-no-repeat space-x-4">
+        <p className="mb-10 text-lg md:text-[42px] font-thin p-4 text-center">
           Our Mission is to enhance your digital presence, streamline
           operations, and drive engagement while utilizing modern technologies:
-          <ul className="flex space-x-10 items-center text-[30px]">
-            <li>
-              <img
-                className="h-12"
-                src="https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png"
-                alt="Vite Logo"
-              />{" "}
-              Vite
-            </li>
-            <li>
-              <img
-                className="h-12"
-                src="https://img.icons8.com/?size=48&id=108784&format=png"
-                alt="JavaScript Logo"
-              />{" "}
-              JavaScript
-            </li>
-            <li>
-              <img
-                className="h-12"
-                src="https://img.icons8.com/?size=80&id=NfbyHexzVEDk&format=png"
-                alt="React Logo"
-              />{" "}
-              React
-            </li>
-            <li>
-              <img
-                className="h-12"
-                src="https://img.icons8.com/?size=48&id=x7XMNGh2vdqA&format=png"
-                alt="Tailwind Logo"
-              />{" "}
-              Tailwind
-            </li>
-            <li>
-              <img
-                className="h-12"
-                src="https://img.icons8.com/?size=80&id=en2FZIAZdquE&format=png"
-                alt="Git Logo"
-              />{" "}
-              Git
-            </li>
-          </ul>
         </p>
+        <ul className="flex flex-wrap justify-center space-x-4 md:space-x-10 items-center text-sm md:text-[30px]">
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png"
+              alt="Vite Logo"
+            />{" "}
+            <span>Vite</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=48&id=108784&format=png"
+              alt="JavaScript Logo"
+            />{" "}
+            <span>JavaScript</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=80&id=NfbyHexzVEDk&format=png"
+              alt="React Logo"
+            />{" "}
+            <span>React</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=96&id=MWiBjkuHeMVq&format=png"
+              alt="Next Logo"
+            />{" "}
+            <span>Next.js</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=100&id=nCj4PvnCO0tZ&format=png"
+              alt="Typescript Logo"
+            />{" "}
+            <span>Typescript</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
+              alt="Node Logo"
+            />{" "}
+            <span>Node.js</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=80&id=WNoJgbzDr3i2&format=png"
+              alt="Express Logo"
+            />{" "}
+            <span>Express.js</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=96&id=74402&format=png"
+              alt="Mongodb Logo"
+            />{" "}
+            <span>MongoDB</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=96&id=38561&format=png"
+              alt="PostgreSQL Logo"
+            />{" "}
+            <span>PostgreSQL</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=96&id=pHS3eRpynIRQ&format=png"
+              alt="Redis Logo"
+            />{" "}
+            <span>Redis</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=48&id=x7XMNGh2vdqA&format=png"
+              alt="Tailwind Logo"
+            />{" "}
+            <span>Tailwind</span>
+          </li>
+          <li className="flex items-center space-x-2">
+            <img
+              className="h-8 md:h-12"
+              src="https://img.icons8.com/?size=80&id=en2FZIAZdquE&format=png"
+              alt="Git Logo"
+            />{" "}
+            <span>Git</span>
+          </li>
+        </ul>
       </div>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col space-y-4 md:w-1/2 mr-[720px] p-16"
+        className="flex flex-col space-y-4 w-full md:w-1/2 p-4 md:p-16"
       >
         <input
           type="text"
@@ -134,7 +192,7 @@ const Collaborate = () => {
         />
         <button
           type="submit"
-          className="bg-inherit hover:bg-blue-400 text-white font-bold py-2 px-4 rounded-md shadow focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md shadow focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
         >
           Submit
         </button>

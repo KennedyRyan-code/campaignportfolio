@@ -40,7 +40,7 @@ const Hero = () => {
             Building Solutions that Inspire, Elevate, and Endure! &nbsp; Bundled
             with search engine optimization, web security, responsive design.
           </p>
-          <Button href="/pricing">Get started</Button>
+          <Button href="#pricing">Get started</Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
@@ -71,7 +71,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="V0 Code generation"
                   />
                 </ScrollParallax>
               </div>

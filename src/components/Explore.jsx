@@ -60,13 +60,27 @@ const Explore = () => {
             </CardHeader>
             <CardContent>
               <ol className="list-decimal list-inside space-y-2">
-                <li>Navigate using the sidebar menu</li>
-                <li>View reservations and occupancy on the main dashboard</li>
-                <li>Use the search bar to find specific information</li>
                 <li>
-                  Create new reservations using the "New reservation" button
+                  Take a deep dive into our services, solutions, and past
+                  projects to understand how we can help your business grow
                 </li>
-                <li>Check notifications for important updates</li>
+                <li>
+                  Schedule a free consultation with our experts to brainstorm
+                  ideas, clarify your goals, and outline the best solutions for
+                  your business.
+                </li>
+                <li>
+                  Choose from our wide range of services and create a custom
+                  package tailored to your specific requirements.
+                </li>
+                <li>
+                  Our team will present a detailed proposal, complete with
+                  timelines, deliverables, and cost estimates.
+                </li>
+                <li>
+                  Watch your project come to life! Post-launch, we provide
+                  ongoing support.
+                </li>
               </ol>
             </CardContent>
           </Card>
@@ -83,9 +97,10 @@ const Explore = () => {
                 If you need further assistance, please contact our support team:
               </p>
               <ul className="space-y-2">
-                <li>Email: support@hoteldashboard.com</li>
-                <li>Phone: +1 (555) 123-4567</li>
-                <li>Live Chat: Available 24/7 on the dashboard</li>
+                <li>Email: cosmicflowtech@outlook.com</li>
+                <li>Phone: +254 723 722 998</li>
+                <li>Office line: +254 782 777 061</li>
+                <li>Live Chat: Available 24/7 on Office line WhatsApp</li>
               </ul>
             </CardContent>
           </Card>
@@ -109,57 +124,67 @@ const Explore = () => {
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger>
-              How do I create a new reservation?
+              Can I customize a package to suit my business needs?
             </AccordionTrigger>
             <AccordionContent>
-              To create a new reservation, click on the "New reservation" button
-              in the top right corner of the dashboard. Fill in the required
-              information in the form that appears, including guest details,
-              room type, and dates of stay. Once completed, click "Confirm
-              Reservation" to finalize the booking.
+              Absolutely! We understand that every business is unique. Our
+              solutions are fully customizable to align with your specific
+              goals, whether you need tailored branding, a custom-built system,
+              or advanced integrations. Contact us to discuss your requirements.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>How can I view occupancy rates?</AccordionTrigger>
+            <AccordionTrigger>
+              How do your School & Appointment Systems work?
+            </AccordionTrigger>
             <AccordionContent>
-              Occupancy rates are displayed on the main dashboard under the
-              "Occupancy" card. You can see the number of vacant, occupied, and
-              not ready rooms. For more detailed occupancy reports, navigate to
-              the "Reports" section using the sidebar menu.
+              Our systems are designed to streamline operations for schools, and
+              other enterprises. They include features like automated
+              scheduling, real-time notifications, and analytics to make
+              management efficient and hassle-free. Schedule a demo with us to
+              see it in action.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
             <AccordionTrigger>
-              How do I update guest information?
+              Do you offer post-launch support?
             </AccordionTrigger>
             <AccordionContent>
-              To update guest information, go to the "Guests" section using the
-              sidebar menu. Use the search function to find the specific guest,
-              then click on their name to access their profile. From there, you
-              can edit their details and save the changes.
+              Yes, all our packages include post-launch support to ensure smooth
+              operations. We provide maintenance, troubleshooting, and
+              performance optimization to keep your system running flawlessly.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
             <AccordionTrigger>
-              Can I customize the dashboard layout?
+              How do I know if your services are right for my business?
             </AccordionTrigger>
             <AccordionContent>
-              Currently, the dashboard layout is fixed to ensure consistency
-              across all users. However, you can collapse the sidebar to gain
-              more screen space. We're working on customization options for
-              future updates. Stay tuned for announcements in the "What's New"
-              section.
+              We recommend starting with a free consultation where we can
+              understand your needs and recommend the best solutions.
+              Additionally, you can check out some of our completed projects to
+              see the value we bring to businesses like yours.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
-            <AccordionTrigger>How do I generate reports?</AccordionTrigger>
+            <AccordionTrigger>
+              What payment options are available for your services?
+            </AccordionTrigger>
             <AccordionContent>
-              To generate reports, navigate to the "Reports" section using the
-              sidebar menu. From there, you can select the type of report you
-              need (e.g., occupancy, revenue, guest statistics). Choose the date
-              range and any other relevant filters, then click "Generate
-              Report". You can view the report on-screen or download it in
-              various formats like PDF or CSV.
+              We offer flexible payment plans, including installment options for
+              larger projects. All payments are processed securely through our
+              integrated digital payment solutions.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-6">
+            <AccordionTrigger>
+              Can I collaborate with CosmicTech on a long-term basis?
+            </AccordionTrigger>
+            <AccordionContent>
+              Yes, we welcome long-term collaborations! Our collaboration
+              packages are designed to provide ongoing support, regular updates,
+              and scalability to help your business grow. Contact us to learn
+              more about partnership opportunities.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -167,6 +192,21 @@ const Explore = () => {
 
       <div className="px-4 py-12 text-white text-center">
         <h1>Join Us</h1>
+        <p>Subscribe to our newsletter for the latest updates</p>
+
+        <p>
+          contact Us
+          <a
+            className="text-2xl text-violet-600"
+            href="mailto: cosmicflowtech@outlook.com"
+          >
+            {" "}
+            Email{" "}
+          </a>{" "}
+          or {""}
+          <span className="text-2xl"> Call +254 723 722 998</span>
+        </p>
+
         <form onSubmit={handleSubmit}>
           <input
             type="email"
@@ -175,7 +215,9 @@ const Explore = () => {
             placeholder="Enter your email"
             required
           />
-          <button type="submit">Submit</button>
+          <button className="hover:bg-blue-400" type="submit">
+            Submit
+          </button>
         </form>
       </div>
     </div>

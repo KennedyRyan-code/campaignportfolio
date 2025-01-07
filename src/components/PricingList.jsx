@@ -40,7 +40,7 @@ const PricingList = () => {
           </ul>
           <Button
             className="w-full mb-6 items-center"
-            href={item.price ? "/pricing" : "kent:cosmicflow@contact.com"}
+            href={item.price ? "#pricing" : "kent:cosmicflow@contact.com"}
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}

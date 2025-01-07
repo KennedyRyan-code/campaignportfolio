@@ -1,4 +1,4 @@
-import { brainwaveSymbol, check, mobilelogo } from "../assets";
+import { check, mobilelogo } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
