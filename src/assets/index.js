@@ -27,6 +27,7 @@ import taskforcelogo from "./taskforcelogo.png";
 import upwork from "./upwork.svg";
 import kuhustlelogo from "./kuhustlelogo.png";
 import mobilelogo from "./mobilelogo.svg";
+import b5 from "./b5.svg";
 import Brandingservice from "./services/Brandingservice.webp";
 import smartschool from "./services/smartschool.webp";
 
@@ -168,4 +169,5 @@ export {
   taskforcelogo,
   upwork,
   kuhustlelogo,
+  b5,
 };
