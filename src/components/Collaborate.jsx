@@ -10,7 +10,7 @@ const Collaborate = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/api/collaborate", {
+    fetch("https://realcosmic.tech/api/collaborate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),

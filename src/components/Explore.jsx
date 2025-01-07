@@ -25,7 +25,7 @@ const Explore = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:3000/api/joinUs", {
+      const response = await fetch("https://realcosmic.tech/api/joinUs", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -54,9 +54,7 @@ const Explore = () => {
           <Card>
             <CardHeader>
               <CardTitle>Quick Start Guide</CardTitle>
-              <CardDescription>
-                Learn the basics of using the dashboard
-              </CardDescription>
+              <CardDescription>Explore Our Website Resources</CardDescription>
             </CardHeader>
             <CardContent>
               <ol className="list-decimal list-inside space-y-2">

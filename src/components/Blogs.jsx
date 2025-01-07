@@ -18,7 +18,7 @@ const Blogs = () => {
     const fetchPosts = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch("http://localhost:3000/api/blogs"); // Correct path
+        const response = await fetch("https://realcosmic.tech/api/blogs"); // Correct path
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
