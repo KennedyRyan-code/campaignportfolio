@@ -18,7 +18,9 @@ const Blogs = () => {
     const fetchPosts = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch("https://realcosmic.tech/api/blogs"); // Correct path
+        const response = await fetch(
+          "https://cosmictech-api.vercel.app/api/blogs"
+        ); // Correct path
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

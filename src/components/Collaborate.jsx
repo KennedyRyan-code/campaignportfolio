@@ -10,7 +10,7 @@ const Collaborate = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://realcosmic.tech/api/collaborate", {
+    fetch("https://cosmictech-api.vercel.app/api/collaborate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
