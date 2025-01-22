@@ -10,11 +10,16 @@ const Collaborate = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://cosmictech-api.vercel.app/api/collaborate", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    }).then((res) => {
+    fetch(
+      process.env.NODE_ENV === "production"
+        ? "https://cosmictech-api.vercel.app/api/collaborate"
+        : "http://localhost:3000/api/collaborate",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      }
+    ).then((res) => {
       if (res.ok) {
         alert("Collaboration request submitted!");
         setFormData({
