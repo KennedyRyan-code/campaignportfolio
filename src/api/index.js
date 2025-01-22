@@ -10,7 +10,13 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-const allowedOrigins = ["https://realcosmic.tech"];
+const allowedOrigins = [
+  "https://realcosmic.tech",
+  "https://www.realcosmic.tech",
+];
+if (process.env.NODE_ENV === "development") {
+  allowedOrigins.push("http://localhost:5173");
+}
 app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

@@ -19,8 +19,10 @@ const Blogs = () => {
       try {
         setIsLoading(true);
         const response = await fetch(
-          "https://cosmictech-api.vercel.app/api/blogs"
-        ); // Correct path
+          process.env.NODE_ENV === "production"
+            ? "https://cosmictech-api.vercel.app/api/blogs"
+            : "http://localhost:3000/api/blogs"
+        );
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -87,7 +89,6 @@ const Blogs = () => {
               ))}
         </div>
       )}
-      ;
     </div>
   );
 };
