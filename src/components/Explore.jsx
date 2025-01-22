@@ -19,6 +19,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Link } from "react-router-dom";
 
 const Explore = () => {
   const [email, setEmail] = useState("");
@@ -26,7 +27,9 @@ const Explore = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://cosmictech-api.vercel.app/api/joinUs",
+        process.env.NODE_ENV === "production"
+          ? "https://cosmictech-api.vercel.app/api/joinUs"
+          : "http://localhost:3000/api/joinUs",
         {
           method: "POST",
           headers: {
@@ -106,13 +109,29 @@ const Explore = () => {
             </CardContent>
           </Card>
         </div>
-        <div className="grid gap-6 mt-12">
+        <div className="grid gap-6 mt-12 px-4 sm:px-6 lg:px-8">
           {/* TODO: ADD Social media links to X, Facebook, Tiktok */}
           <Carousel>
             <CarouselContent>
-              <CarouselItem>1</CarouselItem>
-              <CarouselItem>2</CarouselItem>
-              <CarouselItem>3</CarouselItem>
+              <CarouselItem>
+                Our School Management System is always online and accessable to
+                it's Users at all time with a live Support Line. Visit{" "}
+                <a
+                  className="text-purple-700"
+                  href="https://shulepoa.system.ke/auth/login"
+                >
+                  Shule Poa
+                </a>{" "}
+                Now
+              </CarouselItem>
+              <CarouselItem>
+                For School or Related Systems Contact us for a Free live Demo,
+                dont hesitate to ask for a assistance!
+              </CarouselItem>
+              <CarouselItem>
+                We Conduct Live online demos on Google Meets, Zoom or One on One
+                Demo
+              </CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />
@@ -164,7 +183,35 @@ const Explore = () => {
               We recommend starting with a free consultation where we can
               understand your needs and recommend the best solutions.
               Additionally, you can check out some of our completed projects to
-              see the value we bring to businesses like yours.
+              see the value we bring to businesses like yours. Here are some of
+              our projects:{" "}
+              <Link
+                className="text-sky-500"
+                to="https://art-of-ai-prompts.vercel.app/"
+              >
+                Art of AI Prompts
+              </Link>
+              {"      "}
+              <Link
+                className="text-orange-300"
+                to="https://tubonge-kipz.onrender.com/"
+              >
+                Tubonge Chat App
+              </Link>
+              {"     "}
+              <Link
+                className="text-red-500"
+                to="https://v2-bagisto-demo.vercel.app/"
+              >
+                YouTube Clone
+              </Link>
+              {"     "}
+              <Link
+                className="text-color-1"
+                to="https://v2-bagisto-demo.vercel.app/"
+              >
+                Simple Store
+              </Link>
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
@@ -192,11 +239,13 @@ const Explore = () => {
       </div>
 
       <div className="px-4 py-12 text-white text-center">
-        <h1>Join Us</h1>
-        <p>Subscribe to our newsletter for the latest updates</p>
+        <h1 className="text-2xl font-bold">Join Us</h1>
+        <p className="mb-4">
+          Subscribe to our newsletter for the latest updates
+        </p>
 
-        <p>
-          contact Us
+        <p className="mb-4">
+          Contact Us
           <a
             className="text-2xl text-violet-600"
             href="mailto: cosmicflowtech@outlook.com"
@@ -208,15 +257,22 @@ const Explore = () => {
           <span className="text-2xl"> Call +254 723 722 998</span>
         </p>
 
-        <form onSubmit={handleSubmit}>
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-col items-center space-y-4"
+        >
           <input
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email"
             required
+            className="px-4 py-2 rounded-md"
           />
-          <button className="hover:bg-blue-400" type="submit">
+          <button
+            className="px-4 py-2 bg-inherit hover:bg-blue-300 rounded-md text-white"
+            type="submit"
+          >
             Submit
           </button>
         </form>
