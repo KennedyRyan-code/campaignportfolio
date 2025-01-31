@@ -5,6 +5,7 @@ const cors = require("cors");
 const blogRoute = require("./routes/blogs");
 const collabRoute = require("./routes/collaborate");
 const joinUsRoute = require("./routes/joinUs");
+const testRoute = require("./routes/test");
 
 dotenv.config();
 const app = express();
@@ -37,6 +38,7 @@ mongoose
   });
 
 // Routes
+app.use("/api/test", testRoute);
 app.use("/api/blogs", blogRoute);
 app.use("/api/collaborate", collabRoute);
 app.use("/api/joinUs", joinUsRoute);
