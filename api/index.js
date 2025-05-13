@@ -11,6 +11,8 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// cors middleware
+// Allow requests from specific origins
 const allowedOrigins = [
   "https://realcosmic.tech",
   "https://www.realcosmic.tech",
