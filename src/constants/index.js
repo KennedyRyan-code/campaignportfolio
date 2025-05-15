@@ -6,12 +6,10 @@ import {
   benefitImage2,
   chromecast,
   disc02,
-  discord,
   discordBlack,
   facebook,
   figma,
   file02,
-  framer,
   homeSmile,
   instagram,
   notification2,
@@ -29,15 +27,14 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   telegram,
   twitter,
-  simbalogo,
+  aws,
   globalschoollogo,
   taskforcelogo,
   upwork,
-  kuhustlelogo,
+  OwliAfrica,
   instagramicon,
   tiktokicone,
   githubicon,
@@ -83,11 +80,11 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [
-  simbalogo,
+  aws,
   globalschoollogo,
   taskforcelogo,
   upwork,
-  kuhustlelogo,
+  OwliAfrica,
 ];
 
 export const brainwaveServices = [

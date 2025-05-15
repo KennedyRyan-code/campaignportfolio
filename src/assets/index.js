@@ -21,11 +21,11 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
-import simbalogo from "./simbalogo.png";
+import aws from "./awslogo.png";
 import globalschoollogo from "./globalschoollogo.png";
 import taskforcelogo from "./taskforcelogo.png";
 import upwork from "./upwork.svg";
-import kuhustlelogo from "./kuhustlelogo.png";
+import OwliAfrica from "./OwliAfrica.png";
 import mobilelogo from "./mobilelogo.svg";
 import Brandingservice from "./services/Brandingservice.webp";
 import smartschool from "./services/smartschool.webp";
@@ -163,9 +163,9 @@ export {
   telegram,
   twitter,
   horizontallogo,
-  simbalogo,
+  aws,
   globalschoollogo,
   taskforcelogo,
   upwork,
-  kuhustlelogo,
+  OwliAfrica,
 };
