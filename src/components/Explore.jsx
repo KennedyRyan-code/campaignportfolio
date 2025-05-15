@@ -28,7 +28,7 @@ const Explore = () => {
     try {
       const response = await fetch(
         process.env.NODE_ENV === "production"
-          ? "https://cosmictech-api.vercel.app/api/joinUs"
+          ? "https://cosmictech-api.onrender.com/api/joinUs"
           : "http://localhost:3000/api/joinUs",
         {
           method: "POST",
