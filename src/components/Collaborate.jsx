@@ -17,7 +17,7 @@ const Collaborate = () => {
     // Determine the API endpoint based on the environment (production or development)
     const apiEndpoint =
       process.env.NODE_ENV === "production"
-        ? "https://cosmictech-api.vercel.app/api/collaborate" // Production API endpoint
+        ? "https://cosmictech-api.onrender.com/api/collaborate" // Production API endpoint
         : "http://localhost:3000/api/collaborate"; // Development API endpoint
 
     // Make a POST request to the determined API endpoint
