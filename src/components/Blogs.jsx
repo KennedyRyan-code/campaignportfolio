@@ -20,7 +20,7 @@ const Blogs = () => {
         setIsLoading(true);
         const response = await fetch(
           process.env.NODE_ENV === "production"
-            ? "https://cosmictech-api.vercel.app/api/blogs"
+            ? "https://cosmictech-api.onrender.com/api/blogs"
             : "http://localhost:3000/api/blogs"
         );
         if (!response.ok) {
