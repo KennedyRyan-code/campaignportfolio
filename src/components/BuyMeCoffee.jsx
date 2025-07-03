@@ -17,14 +17,14 @@ const coffeeOptions = [
   {
     id: 1,
     name: "Small Coffee",
-    price: 250,
+    price: 350,
     emoji: "☕",
     description: "Perfect for a quick boost",
   },
   {
     id: 2,
     name: "Medium Coffee",
-    price: 650,
+    price: 500,
     emoji: "☕☕",
     description: "Great for focused work",
   },
