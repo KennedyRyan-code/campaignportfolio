@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import { socials } from "../constants";
+import { BuyMeCoffee } from "./BuyMeCoffee";
 
 const Footer = () => {
   return (
@@ -9,7 +10,8 @@ const Footer = () => {
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. CosmicTech All rights reserved.
         </p>
-
+        <BuyMeCoffee className="!w-fit !h-fit" />
+        <p className="caption text-n-4 lg:block">Made with ❤️</p>
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (
             <a

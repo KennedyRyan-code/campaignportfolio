@@ -1,7 +1,7 @@
 "use client";
 
 import { CheckCircle } from "./ui/Icons";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button";
 
 export const PaymentSuccess = ({ option, phoneNumber, onClose }) => {
   return (
