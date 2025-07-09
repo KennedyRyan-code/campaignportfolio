@@ -1,17 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button";
 import { Modal } from "./ui/Modal";
 import { Input } from "./ui/Input";
 import { Coffee, Phone, ArrowLeft, XCircle } from "./ui/Icons";
 import { CoffeeOptionCard } from "./CoffeeOptionCard";
 import { PaymentSuccess } from "./PaymentSuccess";
 import { usePayment } from "../hooks/usePayment";
-import {
-  formatPhoneNumber,
-  validatePhoneNumber,
-} from "../utils/phoneFormatter";
+import { formatPhoneNumber, validatePhoneNumber } from "../lib/phoneFormatter";
 
 const coffeeOptions = [
   {
