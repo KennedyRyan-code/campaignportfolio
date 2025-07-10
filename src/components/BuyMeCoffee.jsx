@@ -21,7 +21,7 @@ const coffeeOptions = [
   {
     id: 2,
     name: "Medium Coffee",
-    price: 500,
+    price: 600,
     emoji: "☕☕",
     description: "Great for focused work",
   },
