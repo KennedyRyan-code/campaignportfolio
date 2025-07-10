@@ -138,7 +138,7 @@ export const BuyMeCoffee = () => {
               </Button>
               <div>
                 <h2 className="flex items-center gap-2 text-xl font-bold">
-                  <Phone className="h-5 w-5 text-green-600" />
+                  <Phone className="h-8 w-8 text-green-600" />
                   M-PESA Payment
                 </h2>
                 <p className="text-sm text-gray-600">
@@ -203,8 +203,10 @@ export const BuyMeCoffee = () => {
                 "Sending STK Push..."
               ) : (
                 <>
-                  <Phone className="mr-2 h-4 w-4" />
-                  Pay KES {selectedOption.price}
+                  <Phone className="mr-2 h-5 w-5 text-green-600" />
+                  <span className="text-sm text-gray-600">
+                    Pay KES {selectedOption.price}
+                  </span>
                 </>
               )}
             </Button>
