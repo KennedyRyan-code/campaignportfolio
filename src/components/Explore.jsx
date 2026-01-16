@@ -201,16 +201,16 @@ const Explore = () => {
               {"     "}
               <Link
                 className="text-red-500"
-                to="https://v2-bagisto-demo.vercel.app/"
+                to="https://metro.mergik.tech/"
               >
-                YouTube Clone
+                Hotel Management System
               </Link>
               {"     "}
               <Link
                 className="text-color-1"
-                to="https://v2-bagisto-demo.vercel.app/"
+                to="https://store.realcosmic.tech/"
               >
-                Simple Store
+                Cosmic Store
               </Link>
             </AccordionContent>
           </AccordionItem>
