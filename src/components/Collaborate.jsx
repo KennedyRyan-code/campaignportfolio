@@ -10,6 +10,38 @@ const Collaborate = () => {
     message: "", // State for the message textarea
   });
 
+  // Mock data for deployed projects
+  const projects = [
+    {
+      title: "E-Commerce Platform",
+      description: "A full-featured online store with payment integration and real-time inventory management.",
+      link: "https://store.realcosmic.tech/",
+      image: "", // Add image path here
+      tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "Tailwind"],
+    },
+    {
+      title: "Art of AI Prompts",
+      description: "A platform for generating and sharing AI prompts with personerlized profile.",
+      link: "https://art-of-ai-prompts.vercel.app/",
+      image: "", // Add image path here
+      tech: ["Next.js", "Google Cloud Console", "Tailwind"],
+    },
+    {
+      title: "Chat App",
+      description: "A real-time chat application with user authentication and message history.",
+      link: "https://tubonge-kipz.onrender.com/login",
+      image: "", // Add image path here
+      tech: ["React","Prisma", "MongoDB", "Tailwind"],
+    },
+    {
+      title: "Hotel Management System",
+      description: "A hotel management system with real-time inventory management and user authentication.",
+      link: "https://metro.mergik.tech/",
+      image: "", // Add image path here
+      tech: ["Next.js","Aceternity UI","Vercel", "MongoDB", "Tailwind"],
+    }
+  ];
+
   // Handler function for form submission
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent the default browser form submission to handle it with JavaScript
@@ -182,6 +214,56 @@ const Collaborate = () => {
           </li>
         </ul>
       </div>
+
+
+
+      {/* Deployed Projects Section */}
+      <section className="max-w-[1024px] w-full p-4 md:p-10 space-y-12 my-12">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
+          Deployed Projects
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="group border border-gray-200 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 bg-white flex flex-col"
+            >
+              {/* Project Image */}
+              <div className="h-48 overflow-hidden bg-gray-100 relative">
+                 {project.image ? (
+                    <img 
+                      src={project.image} 
+                      alt={project.title} 
+                      className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                    />
+                 ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center">
+                       <span className="text-white text-xl font-semibold opacity-90 tracking-wider">{project.title}</span>
+                    </div>
+                 )}
+              </div>
+              
+              <div className="p-6 flex flex-col flex-grow">
+                <h3 className="text-2xl font-bold mb-3 text-gray-800 group-hover:text-blue-600 transition-colors">{project.title}</h3>
+                <p className="text-gray-600 mb-6 flex-grow leading-relaxed">{project.description}</p>
+                 <div className="flex flex-wrap gap-2 mb-6">
+                    {project.tech.map((t, i) => (
+                        <span key={i} className="bg-blue-50 text-blue-700 text-xs font-medium px-3 py-1 rounded-full border border-blue-100">{t}</span>
+                    ))}
+                </div>
+                <a
+                  href={project.link}
+                  className="block w-full text-center bg-gray-900 text-white font-semibold py-3 rounded-lg hover:bg-blue-600 transition-colors duration-300 shadow-md hover:shadow-lg transform active:scale-95"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
       {/* Collaboration form */}
       <form
         onSubmit={handleSubmit} // Attach the handleSubmit function to the form's onSubmit event
