@@ -316,13 +316,13 @@ export const socials = [
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/ken_pachyy",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/ken_patchie?igsh=MXNvM3kxemZqbjFpeg%3D%3D&utm_source=qr",
   },
   {
     id: "3",
