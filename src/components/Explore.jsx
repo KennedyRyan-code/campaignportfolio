@@ -101,7 +101,7 @@ const Explore = () => {
                 If you need further assistance, please contact our support team:
               </p>
               <ul className="space-y-2">
-                <li>Email: cosmicflowtech@outlook.com</li>
+                <li>Email: kenk@realcosmic.tech</li>
                 <li>Phone: +254 723 722 998</li>
                 <li>Office line: +254 782 777 061</li>
                 <li>Live Chat: Available 24/7 on Office line WhatsApp</li>
