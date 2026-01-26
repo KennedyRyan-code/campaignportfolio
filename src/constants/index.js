@@ -7,7 +7,7 @@ import {
   chromecast,
   disc02,
   discordBlack,
-  facebook,
+  tiktokicone,
   figma,
   file02,
   homeSmile,
@@ -36,7 +36,6 @@ import {
   upwork,
   OwliAfrica,
   instagramicon,
-  tiktokicone,
   githubicon,
 } from "../assets";
 
@@ -316,13 +315,13 @@ export const socials = [
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/ken_pachyy",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/ken_patchie?igsh=MXNvM3kxemZqbjFpeg%3D%3D&utm_source=qr",
   },
   {
     id: "3",
@@ -332,8 +331,8 @@ export const socials = [
   },
   {
     id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "Tiktok",
+    iconUrl: tiktokicone,
+    url: "https://www.tiktok.com/@cosmictech6?_r=1&_t=ZS-93OCAOcC620",
   },
 ];
