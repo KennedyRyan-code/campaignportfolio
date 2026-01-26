@@ -7,7 +7,7 @@ import {
   chromecast,
   disc02,
   discordBlack,
-  facebook,
+  tiktokicone,
   figma,
   file02,
   homeSmile,
@@ -36,7 +36,6 @@ import {
   upwork,
   OwliAfrica,
   instagramicon,
-  tiktokicone,
   githubicon,
 } from "../assets";
 
@@ -332,8 +331,8 @@ export const socials = [
   },
   {
     id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "Tiktok",
+    iconUrl: tiktokicone,
+    url: "https://www.tiktok.com/@cosmictech6?_r=1&_t=ZS-93OCAOcC620",
   },
 ];
