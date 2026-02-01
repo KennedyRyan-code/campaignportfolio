@@ -33,7 +33,7 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <a className="cursor-pointer ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                  <a href="https://wa.me/254782777061" className="cursor-pointer ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider pointer-events-auto">
                     Explore more
                   </a>
                   <Arrow />
