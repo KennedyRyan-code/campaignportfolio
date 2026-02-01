@@ -11,7 +11,7 @@ import Services from "./components/Services";
 import Blogs from "./components/Blogs";
 import Collaborate from "./components/Collaborate";
 import Explore from "./components/Explore";
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   return (
